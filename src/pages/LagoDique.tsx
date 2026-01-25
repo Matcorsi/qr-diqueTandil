@@ -298,7 +298,7 @@ const categories = [
 
 
         <ParallaxSection
-          backgroundImage="images/murallon.jpg"
+          backgroundImage="/images/murallon.jpg"
           height="min-h-[80vh]">
 
           <div className="container mx-auto px-4 py-24">
@@ -407,7 +407,7 @@ const categories = [
 
           <div className="rounded-2xl overflow-hidden shadow-xl mb-10">
             <img
-              src="images/yarara.jpg"
+              src="/images/yarara.jpg"
               alt="Yarará Grande"
               className="w-full h-full object-cover"
             />
@@ -487,7 +487,7 @@ const categories = [
 
 
         <ParallaxSection
-          backgroundImage="images/dique-noche.jpg"
+          backgroundImage="/images/dique-noche.jpg"
           height="min-h-[90vh]"
           overlayOpacity={0.5}>
 
@@ -564,7 +564,7 @@ const categories = [
         </div>
 
         <PhotoBlock
-          image="images/carpincho.jpeg"
+          image="/images/carpincho.jpeg"
           title="Observación de fauna"
           subtitle="Respeto y conservación"
           content="El Lago del Dique es hogar de carpinchos, aves y otras especies silvestres.
@@ -574,7 +574,7 @@ const categories = [
         />
 
         <PhotoBlock
-          image="images/gastronomia.webp"
+          image="/images/gastronomia.webp"
           title="Gastronomía junto al lago"
           subtitle="Sabores y descanso"
           content="Restaurantes y cafés rodean el lago, ofreciendo espacios ideales para
