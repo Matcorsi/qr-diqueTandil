@@ -564,24 +564,42 @@ const categories = [
         </div>
 
         <PhotoBlock
-          image="/images/carpincho.jpeg"
-          title="Observación de fauna"
-          subtitle="Respeto y conservación"
-          content="El Lago del Dique es hogar de carpinchos, aves y otras especies silvestres.
-          La observación responsable permite disfrutar de la fauna sin alterar su hábitat,
-          fomentando el respeto y la convivencia con la naturaleza."
+          image="https://images.unsplash.com/photo-1579546929539-4e2f5b7d0a47?auto=format&fit=crop&w=800&q=80"
+          title="No alimentar a la fauna silvestre"
+          subtitle="Cuidar también es no intervenir"
+          content="Alimentar a los animales silvestres puede alterar su comportamiento natural,
+          volverlos dependientes de la comida humana y aumentar el riesgo de enfermedades.
+          Entre las consecuencias se encuentran la pérdida del miedo a los humanos,
+          la proliferación de especies no deseadas, la propagación de enfermedades
+          y la alteración del ecosistema del lago."
           align="left"
         />
 
         <PhotoBlock
-          image="/images/gastronomia.webp"
-          title="Gastronomía junto al lago"
-          subtitle="Sabores y descanso"
-          content="Restaurantes y cafés rodean el lago, ofreciendo espacios ideales para
-          disfrutar de una comida, una merienda o una bebida mientras se contempla
-          el paisaje y la tranquilidad del entorno."
+          image="https://images.unsplash.com/photo-1561948955-5707b5eb34f7?auto=format&fit=crop&w=800&q=80"
+          title="Perros con correa"
+          subtitle="Una medida simple que protege a todos"
+          content="Es obligatorio llevar a los perros con correa dentro del predio del lago.
+          Esta medida protege a la fauna silvestre y previene el contagio de enfermedades.
+          Los perros sueltos pueden transmitir parvovirus, leptospirosis y enfermedad de Lyme,
+          además de atacar aves y pequeños mamíferos, afectando el equilibrio natural.
+          Colaborá llevando a tu perro con correa para un paseo seguro y responsable."
           align="right"
         />
+
+        <PhotoBlock
+          image="https://images.unsplash.com/photo-1501706362039-c6e809f8dfca?auto=format&fit=crop&w=800&q=80"
+          title="Salud y convivencia"
+          subtitle="Prevención de enfermedades"
+          content="La interacción entre humanos y fauna silvestre puede transmitir enfermedades.
+          Algunas zoonosis incluyen la rabia, la leptospirosis y la enfermedad de Lyme,
+          mientras que otras pueden transmitirse de humanos a animales, como la gripe.
+          Para prevenir riesgos, evitá tocar fauna silvestre, respetá los hábitats,
+          no alimentes a los animales y mantené una correcta higiene luego del contacto
+          con el entorno natural."
+          align="left"
+        />
+
 
 
       </section>
