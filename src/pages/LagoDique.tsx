@@ -66,7 +66,7 @@ export function LagoDique() {
     category: 'Aves acuáticas'
   },
   {
-    name: 'Cormorán',
+    name: 'Biguá',
     scientificName: 'Phalacrocorax brasilianus',
     description:
       'Ave acuática de plumaje negro y cuello largo. Se alimenta de peces y pequeños animales acuáticos.',
@@ -249,6 +249,14 @@ export function LagoDique() {
     description:
       'Serpiente de color verdoso. Es venenosa, pero no representa riesgo médico significativo.',
     image: '/images/animales/culebraPastizal.jpg',
+    category: 'Reptiles'
+  },
+  {
+    name: 'Yarará Grande',
+    scientificName: 'Bothrops alternatus',
+    description:
+      'Serpiente de gran tamaño y venenosa, de cuerpo marrón con manchas oscuras. Se alimenta principalmente de pequeños mamíferos y aves.',
+    image: '/images/animales/yarara.jpg',
     category: 'Reptiles'
   }
 ];
@@ -651,7 +659,7 @@ const categories = [
 
           <div className="border-t border-white/10 mt-12 pt-8 text-center text-sm text-gray-400">
             <p>
-              &copy; {new Date().getFullYear()} Lago del Dique - Tandil. All
+              &copy; {new Date().getFullYear()} Lago del Fuerte - Tandil. All
               rights reserved. Created Mateo Corsi
             </p>
           </div>
