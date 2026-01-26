@@ -303,9 +303,11 @@ const categories = [
 
           <div className="container mx-auto px-4 py-24">
             <div className="max-w-2xl bg-white/90 backdrop-blur-md p-10 rounded-lg shadow-2xl ml-auto border-l-8 border-[var(--color-lake-green)]">
+              
               <h2 className="text-4xl font-serif font-bold text-[var(--color-depth-blue)] mb-6">
                 Historia y naturaleza del Lago
               </h2>
+
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 El Lago del Fuerte de Tandil es un embalse artificial construido en 1827
                 con el objetivo de abastecer de agua a la ciudad y controlar las
@@ -313,6 +315,14 @@ const categories = [
                 un lugar emblemático, donde la historia y la naturaleza conviven en
                 equilibrio.
               </p>
+
+              {/* Imagen SOLO para mobile */}
+              <img
+                src="/images/dique.jpg"
+                alt="Lago del Fuerte de Tandil"
+                className="block md:hidden w-full rounded-lg mb-6"
+              />
+
               <p className="text-lg text-gray-700 leading-relaxed">
                 Hoy, el lago es un refugio para una gran diversidad de fauna y flora
                 local. Aves acuáticas, mamíferos, peces, anfibios y reptiles encuentran
@@ -320,8 +330,10 @@ const categories = [
                 importancia de disfrutar este entorno con respeto y protegerlo entre
                 todos.
               </p>
+
             </div>
           </div>
+
         </ParallaxSection>
 
         <WaveSection position="bottom" color="#FAFAF9" variant="deep" />
