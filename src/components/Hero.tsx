@@ -5,6 +5,20 @@ export function Hero() {
   const ripples = [0, 1, 2];
   return (
     <section className="relative h-screen w-full overflow-hidden">
+
+      {/* Logos arriba */}
+      <div className="absolute mb-5 top-5 left-1/2 -translate-x-1/2 flex flex-col items-center z-20">
+        <span className="text-gray-200 font-medium text-sm">Auspician</span>
+      </div>  
+      <div className="absolute top-10 left-1/2 -translate-x-1/2 flex items-center space-x-6 z-20 gap-4">
+        <a href="https://www.instagram.com/valledelosciervos" target="_blank" rel="noopener noreferrer">
+          <img src="/images/logo1.png" alt="Logo 1" className="h-16 w-auto" />
+        </a>
+        <a href="https://www.instagram.com/granja_los_pibes" target="_blank" rel="noopener noreferrer">
+          <img src="/images/logo3.png" alt="Logo 2" className="h-16 w-auto" />
+        </a>
+      </div>
+
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -65,7 +79,7 @@ export function Hero() {
             Donde la naturaleza vive
           </span>
           <h1 className="mb-6 font-serif text-6xl md:text-8xl font-bold tracking-tight text-shadow-lg">
-            Lago del Dique
+            Lago del Fuerte
           </h1>
           <p className="mx-auto mb-10 max-w-2xl text-xl font-light text-gray-100 md:text-2xl text-shadow-sm">
             Un entorno natural para disfrutar, respetar y proteger, en convivencia con la fauna y el paisaje.

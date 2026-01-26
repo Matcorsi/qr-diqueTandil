@@ -4,7 +4,7 @@ import { ParallaxSection } from '../components/ParallaxSection';
 import { WaveSection } from '../components/WaveSection';
 import { SpeciesCard } from '../components/SpeciesCard';
 import { PhotoBlock } from '../components/PhotoBlock';
-import { MapPin, Camera, Coffee, Utensils, Trees, Bike, AlertTriangle, Phone, ShieldAlert} from 'lucide-react';
+import { Utensils, Trees, Bike, AlertTriangle, Phone, ShieldAlert} from 'lucide-react';
 export function LagoDique() {
 
   const wildlife = [
@@ -14,7 +14,7 @@ export function LagoDique() {
     scientificName: 'Fulica armillata',
     description:
       'Ave acuática de plumaje negro, con pico y patas amarillas. Se alimenta de plantas y pequeños animales acuáticos. Común en lagos y ríos de la región.',
-    image: null,
+    image: '/images/animales/gallareta.jpg',
     category: 'Aves acuáticas'
   },
   {
@@ -22,7 +22,7 @@ export function LagoDique() {
     scientificName: 'Anas flavirostris',
     description:
       'Pato pequeño de plumaje marrón y pico amarillo. Se alimenta de plantas y pequeños invertebrados. Es una especie migratoria.',
-    image: null,
+    image: '/images/animales/patoBarcino.jpg',
     category: 'Aves acuáticas'
   },
   {
@@ -30,7 +30,7 @@ export function LagoDique() {
     scientificName: 'Anas georgica',
     description:
       'Pato de plumaje marrón y cuello largo. Se alimenta de plantas y granos. Es común en la región.',
-    image: null,
+    image: '/images/animales/patoMaicero.jpg',
     category: 'Aves acuáticas'
   },
   {
@@ -38,7 +38,7 @@ export function LagoDique() {
     scientificName: 'Dendrocygna viduata',
     description:
       'Pato de plumaje castaño con la cabeza parcialmente blanca. Se alimenta de plantas y granos.',
-    image: null,
+    image: '/images/animales/patoSiririPampa.jpg',
     category: 'Aves acuáticas'
   },
   {
@@ -46,7 +46,7 @@ export function LagoDique() {
     scientificName: 'Podiceps major',
     description:
       'Ave acuática de cuello largo y plumaje marrón. Se alimenta de peces y pequeños animales acuáticos.',
-    image: null,
+    image: '/images/animales/macaGrande.jpg',
     category: 'Aves acuáticas'
   },
   {
@@ -54,7 +54,7 @@ export function LagoDique() {
     scientificName: 'Egretta thula',
     description:
       'Ave acuática de plumaje blanco y patas largas. Se alimenta de peces y pequeños animales acuáticos.',
-    image: null,
+    image: '/images/animales/garzitaBlanca.jpg',
     category: 'Aves acuáticas'
   },
   {
@@ -62,7 +62,7 @@ export function LagoDique() {
     scientificName: 'Syrigma sibilatrix',
     description:
       'Ave semiacuática de plumaje gris, pecho amarillento y patas largas. Se alimenta de peces y pequeños animales.',
-    image: null,
+    image: '/images/animales/chiflon.jpg',
     category: 'Aves acuáticas'
   },
   {
@@ -70,7 +70,7 @@ export function LagoDique() {
     scientificName: 'Phalacrocorax brasilianus',
     description:
       'Ave acuática de plumaje negro y cuello largo. Se alimenta de peces y pequeños animales acuáticos.',
-    image: null,
+    image: '/images/animales/cormoran.jpg',
     category: 'Aves acuáticas'
   },
   {
@@ -78,7 +78,7 @@ export function LagoDique() {
     scientificName: 'Phimosus infuscatus',
     description:
       'Ave acuática de plumaje negro y pico largo. Se alimenta de invertebrados e insectos acuáticos.',
-    image: null,
+    image: '/images/animales/cuervilloCaraPelada.jpg',
     category: 'Aves acuáticas'
   },
 
@@ -88,7 +88,7 @@ export function LagoDique() {
     scientificName: 'Vanellus chilensis',
     description:
       'Ave de plumaje blanco y negro, conocida por su canto característico. Se alimenta de insectos.',
-    image: null,
+    image: '/images/animales/tero.jpg',
     category: 'Aves'
   },
   {
@@ -96,7 +96,7 @@ export function LagoDique() {
     scientificName: 'Pitangus sulphuratus',
     description:
       'Ave de colores marrón, amarillo y blanco. Se alimenta de insectos y pequeños invertebrados.',
-    image: null,
+    image: '/images/animales/benteveo.jpg',
     category: 'Aves'
   },
   {
@@ -104,7 +104,7 @@ export function LagoDique() {
     scientificName: 'Mimus saturninus',
     description:
       'Ave de plumaje gris y blanco, famosa por su canto melodioso. Se alimenta de insectos y frutas.',
-    image: null,
+    image: '/images/animales/calandria.jpg',
     category: 'Aves'
   },
   {
@@ -112,7 +112,7 @@ export function LagoDique() {
     scientificName: 'Furnarius rufus',
     description:
       'Ave de plumaje marrón, conocida por sus nidos de barro. Se alimenta de insectos.',
-    image: null,
+    image: '/images/animales/hornero.jpg',
     category: 'Aves'
   },
   {
@@ -120,7 +120,7 @@ export function LagoDique() {
     scientificName: 'Myiopsitta monachus',
     description:
       'Ave de plumaje verde y gris, muy inteligente y sociable. Se alimenta de frutas, semillas y granos.',
-    image: null,
+    image: '/images/animales/cataComun.jpg',
     category: 'Aves'
   },
   {
@@ -128,7 +128,7 @@ export function LagoDique() {
     scientificName: 'Milvago chimango',
     description:
       'Ave rapaz de plumaje marrón y blanco. Se alimenta de carroña y pequeños animales.',
-    image: null,
+    image: '/images/animales/chimango.jpg',
     category: 'Aves'
   },
   {
@@ -136,7 +136,7 @@ export function LagoDique() {
     scientificName: 'Caracara plancus',
     description:
       'Ave de rapiña robusta y oportunista. Se alimenta de carroña y pequeños animales.',
-    image: null,
+    image: '/images/animales/carancho.jpg',
     category: 'Aves'
   },
 
@@ -146,7 +146,7 @@ export function LagoDique() {
     scientificName: 'Didelphis albiventris',
     description:
       'Marsupial de pelaje gris y blanco. Se alimenta de frutas, insectos y pequeños animales.',
-    image: null,
+    image: '/images/animales/zarigueya.jpg',
     category: 'Mamíferos'
   },
   {
@@ -154,7 +154,7 @@ export function LagoDique() {
     scientificName: 'Lycalopex gymnocercus',
     description:
       'Cánido de pelaje gris. Se alimenta de pequeños mamíferos, frutas e insectos.',
-    image: null,
+    image: '/images/animales/zorroGris.jpeg',
     category: 'Mamíferos'
   },
   {
@@ -162,7 +162,7 @@ export function LagoDique() {
     scientificName: 'Myocastor coypus',
     description:
       'Roedor semiacuático de pelaje marrón. Se alimenta de plantas acuáticas y raíces.',
-    image: null,
+    image: '/images/animales/coipo.jpg',
     category: 'Mamíferos'
   },
   {
@@ -170,7 +170,7 @@ export function LagoDique() {
     scientificName: 'Hydrochoerus hydrochaeris',
     description:
       'El roedor más grande del mundo. Semiacuático, se alimenta de pastos y plantas acuáticas.',
-    image: null,
+    image: '/images/animales/carpincho.jpg',
     category: 'Mamíferos'
   },
 
@@ -180,7 +180,7 @@ export function LagoDique() {
     scientificName: 'Odontesthes bonariensis',
     description:
       'Pez de cuerpo alargado y escamas plateadas. Se alimenta de zooplancton y pequeños crustáceos.',
-    image: null,
+    image: '/images/animales/pejerrey.jpg',
     category: 'Peces'
   },
   {
@@ -188,7 +188,7 @@ export function LagoDique() {
     scientificName: 'Pseudocorynopoma doriae',
     description:
       'Pez pequeño de cuerpo aplanado. Se alimenta de insectos y pequeños crustáceos.',
-    image: null,
+    image: '/images/animales/chata.jpg',
     category: 'Peces'
   },
   {
@@ -196,7 +196,7 @@ export function LagoDique() {
     scientificName: 'Cheirodon interruptus',
     description:
       'Pez pequeño de escamas plateadas. Se alimenta de algas y pequeños invertebrados.',
-    image: null,
+    image: '/images/animales/mojarra.jpg',
     category: 'Peces'
   },
   {
@@ -204,7 +204,7 @@ export function LagoDique() {
     scientificName: 'Rhamdia quelen',
     description:
       'Pez de cuerpo robusto y barbillas largas. Se alimenta de peces, insectos y crustáceos.',
-    image: null,
+    image: '/images/animales/bagre.jpg',
     category: 'Peces'
   },
 
@@ -214,7 +214,7 @@ export function LagoDique() {
     scientificName: 'Rhinella arenarum',
     description:
       'Anfibio de cuerpo robusto y piel verrugosa. Se alimenta de insectos y pequeños invertebrados.',
-    image: null,
+    image: '/images/animales/sapo.jpg',
     category: 'Anfibios'
   },
   {
@@ -222,7 +222,7 @@ export function LagoDique() {
     scientificName: 'Boana pulchella',
     description:
       'Rana de cuerpo delgado y piel lisa. Se alimenta de insectos y pequeños invertebrados.',
-    image: null,
+    image: '/images/animales/zarzal.jpg',
     category: 'Anfibios'
   },
 
@@ -232,7 +232,7 @@ export function LagoDique() {
     scientificName: 'Salvator merianae',
     description:
       'Lagarto grande de color negro y blanco. Se alimenta de pequeños vertebrados e insectos.',
-    image: null,
+    image: '/images/animales/lagarto.jpg',
     category: 'Reptiles'
   },
   {
@@ -240,7 +240,7 @@ export function LagoDique() {
     scientificName: 'Erythrolamprus poecilogyrus',
     description:
       'Serpiente no venenosa de color verde y negro. Se alimenta de pequeños vertebrados.',
-    image: null,
+    image: '/images/animales/culebra.jpg',
     category: 'Reptiles'
   },
   {
@@ -248,7 +248,7 @@ export function LagoDique() {
     scientificName: 'Philodryas patagoniensis',
     description:
       'Serpiente de color verdoso. Es venenosa, pero no representa riesgo médico significativo.',
-    image: null,
+    image: '/images/animales/culebraPastizal.jpg',
     category: 'Reptiles'
   }
 ];
@@ -298,7 +298,7 @@ const categories = [
 
 
         <ParallaxSection
-          backgroundImage="/images/murallon.jpg"
+          backgroundImage="/images/dique.jpg"
           height="min-h-[80vh]">
 
           <div className="container mx-auto px-4 py-24">
@@ -307,7 +307,7 @@ const categories = [
                 Historia y naturaleza del Lago
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                El Lago del Dique de Tandil es un embalse artificial construido en 1827
+                El Lago del Fuerte de Tandil es un embalse artificial construido en 1827
                 con el objetivo de abastecer de agua a la ciudad y controlar las
                 inundaciones. Con el paso del tiempo, este espacio se transformó en
                 un lugar emblemático, donde la historia y la naturaleza conviven en
@@ -478,7 +478,7 @@ const categories = [
 
 
       {/* Visitor Tips - Parallax */}
-      <div className="relative">
+      <div className="relative mt-20">
         <WaveSection
           position="top"
           color="#FAFAF9"
@@ -487,7 +487,7 @@ const categories = [
 
 
         <ParallaxSection
-          backgroundImage="/images/dique-noche.jpg"
+          backgroundImage="/images/dique-noche.JPG"
           height="min-h-[90vh]"
           overlayOpacity={0.5}>
 
@@ -504,7 +504,7 @@ const categories = [
                 {
                   icon: Trees,
                   title: 'Espacios verdes públicos',
-                  image: '/images/espacios.jpg',
+                  image: '/images/dique-noche.avif',
                   text: 'Amplias áreas verdes invitan a tomar mate, descansar bajo los árboles o pasar la tarde en familia disfrutando del entorno natural.'
                 },
                 {
@@ -564,7 +564,7 @@ const categories = [
         </div>
 
         <PhotoBlock
-          image="https://images.unsplash.com/photo-1579546929539-4e2f5b7d0a47?auto=format&fit=crop&w=800&q=80"
+          image="/images/alimentar.avif"
           title="No alimentar a la fauna silvestre"
           subtitle="Cuidar también es no intervenir"
           content="Alimentar a los animales silvestres puede alterar su comportamiento natural,
@@ -576,7 +576,7 @@ const categories = [
         />
 
         <PhotoBlock
-          image="https://images.unsplash.com/photo-1561948955-5707b5eb34f7?auto=format&fit=crop&w=800&q=80"
+          image="/images/perro.jpg"
           title="Perros con correa"
           subtitle="Una medida simple que protege a todos"
           content="Es obligatorio llevar a los perros con correa dentro del predio del lago.
@@ -588,7 +588,7 @@ const categories = [
         />
 
         <PhotoBlock
-          image="https://images.unsplash.com/photo-1501706362039-c6e809f8dfca?auto=format&fit=crop&w=800&q=80"
+          image="/images/salud.jpg"
           title="Salud y convivencia"
           subtitle="Prevención de enfermedades"
           content="La interacción entre humanos y fauna silvestre puede transmitir enfermedades.
@@ -619,34 +619,23 @@ const categories = [
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-8 md:mb-0 text-center md:text-left">
               <h2 className="font-serif text-3xl font-bold mb-2">
-                Lago del Dique
+                Lago del Fuerte
               </h2>
               <p className="text-[var(--color-sand)] opacity-80">
                 Donde la naturaleza vive.
               </p>
             </div>
 
-            <div className="flex space-x-8">
-              <a
-                href="#"
-                className="hover:text-[var(--color-sunset)] transition-colors">
-
-                <MapPin className="h-6 w-6" />
+            <div className="flex items-center space-x-6 z-20 gap-4">
+              <a href="https://www.instagram.com/valledelosciervos" target="_blank" rel="noopener noreferrer">
+                <img src="/images/logo1.png" alt="Logo 1" className="h-16 w-auto" />
               </a>
-              <a
-                href="#"
-                className="hover:text-[var(--color-sunset)] transition-colors">
-
-                <Camera className="h-6 w-6" />
-              </a>
-              <a
-                href="#"
-                className="hover:text-[var(--color-sunset)] transition-colors">
-
-                <Coffee className="h-6 w-6" />
+              <a href="https://www.instagram.com/granja_los_pibes" target="_blank" rel="noopener noreferrer">
+                <img src="/images/logo2.png" alt="Logo 2" className="h-16 w-auto" />
               </a>
             </div>
-          </div>
+
+          </div> 
 
           <div className="border-t border-white/10 mt-12 pt-8 text-center text-sm text-gray-400">
             <p>

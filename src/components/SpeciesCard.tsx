@@ -60,15 +60,16 @@ export function SpeciesCard({
           {scientificName}
         </p>
 
+        <div className="flex items-center text-[var(--color-sunset)] font-medium text-sm">
+          <span>Ver más</span>
+          <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+        </div>
+
         {/* Hidden Content - Reveals on Hover */}
         <div className="max-h-0 overflow-hidden opacity-0 transition-all duration-500 ease-in-out group-hover:max-h-40 group-hover:opacity-100">
           <p className="mb-4 text-sm leading-relaxed text-gray-200">
             {description}
           </p>
-          <div className="flex items-center text-[var(--color-sunset)] font-medium text-sm">
-            <span>Learn more</span>
-            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-          </div>
         </div>
       </div>
     </motion.div>);
