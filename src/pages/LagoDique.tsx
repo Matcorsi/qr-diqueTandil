@@ -284,7 +284,7 @@ const categories = [
   };
 
   return (
-    <div className="min-h-screen bg-[var(--color-beach)]/20">
+    <div className="min-h-screen bg-[var(--color-beach)]/20 overflow-x-hidden">
       {/* Hero Section */}
       <Hero />
 

@@ -6,18 +6,38 @@ export function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden">
 
-      {/* Logos arriba */}
-      <div className="absolute mb-5 top-5 left-1/2 -translate-x-1/2 flex flex-col items-center z-20">
-        <span className="text-gray-200 font-medium text-sm">Auspician</span>
-      </div>  
-      <div className="absolute top-10 left-1/2 -translate-x-1/2 flex items-center space-x-6 z-20 gap-4">
-        <a href="https://www.instagram.com/valledelosciervos" target="_blank" rel="noopener noreferrer">
-          <img src="/images/logo1.png" alt="Logo 1" className="h-16 w-auto" />
-        </a>
-        <a href="https://www.instagram.com/granja_los_pibes" target="_blank" rel="noopener noreferrer">
-          <img src="/images/logo2.png" alt="Logo 2" className="h-16 w-auto" />
-        </a>
-      </div>
+      {/* Texto "Auspician" */}
+<div className="absolute top-5 inset-x-0 flex flex-col items-center z-20">
+  <span className="text-gray-200 font-medium text-sm">Auspician</span>
+</div>
+
+        {/* Logos */}
+        <div className="absolute top-10 inset-x-0 flex items-center justify-center gap-4 sm:gap-6 z-20">
+          <a
+            href="https://www.instagram.com/valledelosciervos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/images/logo1.png"
+              alt="Logo 1"
+              className="h-12 sm:h-16 w-auto"
+            />
+          </a>
+
+          <a
+            href="https://www.instagram.com/granja_los_pibes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/images/logo2.png"
+              alt="Logo 2"
+              className="h-12 sm:h-16 w-auto"
+            />
+          </a>
+        </div>
+
 
       {/* Background Image */}
       <div
