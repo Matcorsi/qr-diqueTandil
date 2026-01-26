@@ -507,7 +507,7 @@ const categories = [
 
 
         <ParallaxSection
-          backgroundImage="/images/dique-noche.JPG"
+          backgroundImage="/images/dique-noche.jpg"
           height="min-h-[90vh]"
           overlayOpacity={0.5}>
 
