@@ -508,7 +508,7 @@ const categories = [
 
         <ParallaxSection
           backgroundImage="/images/dique-noche.jpg"
-          height="min-h-[90vh]"
+          height="min-h-[100vh]"
           overlayOpacity={0.5}>
 
           <div className="container mx-auto px-4 py-24">
@@ -665,6 +665,7 @@ const categories = [
           </div>
         </div>
       </footer>
+
     </div>);
 
 }

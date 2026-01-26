@@ -6,10 +6,10 @@ export function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden">
 
-      {/* Texto "Auspician" */}
-<div className="absolute top-5 inset-x-0 flex flex-col items-center z-20">
-  <span className="text-gray-200 font-medium text-sm">Auspician</span>
-</div>
+        {/* Texto "Auspician" */}
+        <div className="absolute top-5 inset-x-0 flex flex-col items-center z-20">
+          <span className="text-gray-200 font-medium text-sm">Auspician</span>
+        </div>
 
         {/* Logos */}
         <div className="absolute top-10 inset-x-0 flex items-center justify-center gap-4 sm:gap-6 z-20">
