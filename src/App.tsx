@@ -1,22 +1,11 @@
-import { useEffect } from "react";
+import { LagoDique } from './pages/LagoDique';
 import ReactGA from "react-ga4";
-import { LagoDique } from "./pages/LagoDique";
-
-// Inicializar GA UNA sola vez
-ReactGA.initialize("G-XXXXXXXXXX");
 
 function App() {
-  useEffect(() => {
-    if (import.meta.env.PROD) {
-      ReactGA.send("pageview");
-    }
-  }, []);
+ReactGA.initialize("G-Y9EP3B7NJ2");
 
-  return (
-    <div className="App">
+  return <div className="App">
       <LagoDique />
-    </div>
-  );
+    </div>;
 }
-
 export { App };
