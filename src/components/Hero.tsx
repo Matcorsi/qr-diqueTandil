@@ -15,7 +15,7 @@ export function Hero() {
           <img src="/images/logo1.png" alt="Logo 1" className="h-16 w-auto" />
         </a>
         <a href="https://www.instagram.com/granja_los_pibes" target="_blank" rel="noopener noreferrer">
-          <img src="/images/logo3.png" alt="Logo 2" className="h-16 w-auto" />
+          <img src="/images/logo2.png" alt="Logo 2" className="h-16 w-auto" />
         </a>
       </div>
 
