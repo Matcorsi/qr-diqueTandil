@@ -328,7 +328,7 @@ const categories = [
               <img
                 src="/images/dique.jpg"
                 alt="Lago del Fuerte de Tandil"
-                className="block md:hidden w-full rounded-lg mb-6"
+                className="block md:hidden w-full h-3/4 rounded-lg mb-6"
               />
 
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -507,7 +507,7 @@ const categories = [
 
 
         <ParallaxSection
-          backgroundImage="/images/dique-noche.jpg"
+          backgroundImage="/images/foto5.jpg"
           height="min-h-[100vh]"
           overlayOpacity={0.5}>
 
@@ -518,19 +518,19 @@ const categories = [
                 {
                   icon: Utensils,
                   title: 'Gastronomía y cafés',
-                  image: '/images/gastronomia.webp',
+                  image: '/images/foto1.jpg',
                   text: 'En los alrededores del lago hay restaurantes, bares y cafeterías ideales para almorzar, merendar o disfrutar de una cerveza artesanal con vista al agua.'
                 },
                 {
                   icon: Trees,
                   title: 'Espacios verdes públicos',
-                  image: '/images/dique-noche.avif',
+                  image: '/images/foto2.jpg',
                   text: 'Amplias áreas verdes invitan a tomar mate, descansar bajo los árboles o pasar la tarde en familia disfrutando del entorno natural.'
                 },
                 {
                   icon: Bike,
                   title: 'Actividades al aire libre',
-                  image: '/images/actividad.jpg',
+                  image: '/images/foto3.jpg',
                   text: 'Ciclismo, caminatas, kayak y deportes recreativos hacen del lago un punto ideal para disfrutar del aire libre y el movimiento.'
                 }
               ].map((tip, idx) => (
@@ -584,7 +584,7 @@ const categories = [
         </div>
 
         <PhotoBlock
-          image="/images/alimentar.avif"
+          image="/images/foto4.jpg"
           title="No alimentar a la fauna silvestre"
           subtitle="Cuidar también es no intervenir"
           content="Alimentar a los animales silvestres puede alterar su comportamiento natural,
@@ -608,7 +608,7 @@ const categories = [
         />
 
         <PhotoBlock
-          image="/images/salud.jpg"
+          image="/images/foto6.jpg"
           title="Salud y convivencia"
           subtitle="Prevención de enfermedades"
           content="La interacción entre humanos y fauna silvestre puede transmitir enfermedades.
