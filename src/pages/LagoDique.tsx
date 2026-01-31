@@ -684,7 +684,7 @@ const categories = [
           <div className="border-t border-white/10 mt-12 pt-8 text-center text-sm text-gray-400">
             <p>
               &copy; {new Date().getFullYear()} Lago del Fuerte - Tandil.
-              Todos los derechos reservados. Desarrollado por Matco.
+              Todos los derechos reservados. Desarrollado por <a href='matco-software.vercel.app'>Matco</a>.
             </p>
           </div>
         </div>
