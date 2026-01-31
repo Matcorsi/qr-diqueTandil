@@ -594,7 +594,7 @@ const categories = [
           volverlos dependientes de la comida humana y aumentar el riesgo de enfermedades.
           Entre las consecuencias se encuentran la pérdida del miedo a los humanos,
           la proliferación de especies no deseadas, la propagación de enfermedades
-          y la alteración del ecosistema del lago. Alimentar o  mascotizar fauna silvestre en la Argentina esta prohibido ( ley Nacional22421)
+          y la alteración del ecosistema del lago. Alimentar o  mascotizar fauna silvestre en la Argentina esta prohibido ( ley Nacional22421)"
           align="left"
         />
 
