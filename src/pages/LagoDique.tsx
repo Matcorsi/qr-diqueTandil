@@ -682,9 +682,17 @@ const categories = [
           </div> 
 
           <div className="border-t border-white/10 mt-12 pt-8 text-center text-sm text-gray-400">
-            <p>
+            <p className="text-sm text-white/70">
               &copy; {new Date().getFullYear()} Lago del Fuerte - Tandil.
-              Todos los derechos reservados. Desarrollado por <a href='matco-software.vercel.app'>Matco</a>.
+              Todos los derechos reservados. Desarrollado por{' '}
+              <a
+                href="https://matco-software.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[#F5F1E6] hover:text-green-300 transition-colors"
+              >
+                Matco
+              </a>.
             </p>
           </div>
         </div>
