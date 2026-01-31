@@ -317,9 +317,9 @@ const categories = [
               </h2>
 
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                El Lago del Fuerte de Tandil es un embalse artificial,su construccion comenzo en 1957 
-                bajo la direccion del ingenireo Pedro
-                Picanet Dubost. Se inaguro el 19 de enero de 1962
+                El Lago del Fuerte de Tandil es un embalse artificial, su construccion comenzo en 1957 
+                bajo la direccion del ingenireo <strong>Pedro
+                Picanet Dubost</strong>. Se inaguro el 19 de enero de 1962
                 con el objetivo de abastecer de agua a la ciudad y controlar las
                 inundaciones. Con el paso del tiempo, este espacio se transformó en
                 un lugar emblemático, donde la historia y la naturaleza conviven en
@@ -438,8 +438,8 @@ const categories = [
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-12 shadow-xl">
             <p className="text-lg leading-relaxed mb-8 text-white/90">
               La <strong>Yarará Grande</strong> es una serpiente de gran tamaño 
-              <strong> </strong>, de cuerpo marrón con manchas oscuras.
-              Se alimenta principalmente de pequeños mamíferos,principalmente ratones(controladora de plagas), por eso su presencia es fundamental en el ambiente.
+              , de cuerpo marrón con manchas oscuras.
+              Se alimenta de pequeños mamíferos, principalmente ratones<strong> (controladora de plagas)</strong>, por eso su presencia es fundamental en el ambiente.
       
               <br/><br />
               Es la <strong>única especie venenosa de importancia médica </strong>
@@ -590,11 +590,20 @@ const categories = [
           image="/images/foto4.jpg"
           title="No alimentar a la fauna silvestre"
           subtitle="Cuidar también es no intervenir"
-          content="Alimentar a los animales silvestres  puede alterar su comportamiento natural,
-          volverlos dependientes de la comida humana y aumentar el riesgo de enfermedades.
-          Entre las consecuencias se encuentran la pérdida del miedo a los humanos,
-          la proliferación de especies no deseadas, la propagación de enfermedades
-          y la alteración del ecosistema del lago. Alimentar o  mascotizar fauna silvestre en la Argentina esta prohibido ( ley Nacional22421)"
+          content={
+            <>
+              Alimentar a los animales silvestres puede alterar su comportamiento natural,
+              volverlos dependientes de la comida humana y aumentar el riesgo de enfermedades.
+              Entre las consecuencias se encuentran la pérdida del miedo a los humanos,
+              la proliferación de especies no deseadas, la propagación de enfermedades
+              y la alteración del ecosistema del lago.
+
+              <span className="block mt-4 font-semibold text-red-400">
+                Alimentar o mascotizar fauna silvestre en la Argentina está prohibido
+                (Ley Nacional 22.421).
+              </span>
+            </>
+          }
           align="left"
         />
 
@@ -602,13 +611,25 @@ const categories = [
           image="/images/perro.jpg"
           title="Perros con correa"
           subtitle="Una medida simple que protege a todos"
-          content="Es obligatorio llevar a los perros con correa dentro del predio del lago. ordenanza municipal 17269.
-          Esta medida protege a la fauna silvestre y previene el contagio de enfermedades.
-          Los perros sueltos pueden transmitir parvovirus, leptospirosis y enfermedad de Lyme,
-          además de atacar aves y pequeños mamíferos, afectando el equilibrio natural.
-          Colaborá llevando a tu perro con correa para un paseo seguro y responsable."
+          content={
+            <>
+              Es obligatorio llevar a los perros con correa dentro del predio del lago.
+              Esta medida protege a la fauna silvestre y previene el contagio de enfermedades.
+              Los perros sueltos pueden transmitir parvovirus, leptospirosis y enfermedad de Lyme,
+              además de atacar aves y pequeños mamíferos, afectando el equilibrio natural.
+
+              <span className="block mt-4 font-semibold text-red-400">
+                Ordenanza Municipal N° 17.269 — Uso obligatorio de correa.
+              </span>
+
+              <p className="mt-3 font-medium">
+                Colaborá llevando a tu perro con correa para un paseo seguro y responsable.
+              </p>
+            </>
+          }
           align="right"
         />
+
 
         <PhotoBlock
           image="/images/foto6.jpg"
@@ -662,8 +683,8 @@ const categories = [
 
           <div className="border-t border-white/10 mt-12 pt-8 text-center text-sm text-gray-400">
             <p>
-              &copy; {new Date().getFullYear()} Lago del Fuerte - Tandil. All
-              rights reserved. Created Mateo Corsi
+              &copy; {new Date().getFullYear()} Lago del Fuerte - Tandil.
+              Todos los derechos reservados. Desarrollado por Matco.
             </p>
           </div>
         </div>

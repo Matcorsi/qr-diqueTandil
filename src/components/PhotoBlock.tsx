@@ -1,8 +1,9 @@
+import { ReactNode } from 'react'
 import { motion } from 'framer-motion';
 interface PhotoBlockProps {
   image: string;
   title: string;
-  content: string;
+  content: string | ReactNode;
   align?: 'left' | 'right';
   subtitle?: string;
 }

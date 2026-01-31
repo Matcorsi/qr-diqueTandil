@@ -127,16 +127,14 @@ export function Hero() {
 
       {/* Scroll Indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white"
-        animate={{
-          y: [0, 10, 0]
-        }}
+        className="absolute bottom-10 left-0 w-full flex justify-center text-white"
+        animate={{ y: [0, 10, 0] }}
         transition={{
           duration: 2,
           repeat: Infinity,
           ease: 'easeInOut'
-        }}>
-
+        }}
+      >
         <ChevronDown className="h-8 w-8 opacity-80" />
       </motion.div>
     </section>);
