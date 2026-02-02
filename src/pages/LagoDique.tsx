@@ -644,6 +644,36 @@ const categories = [
           align="left"
         />
 
+        <PhotoBlock
+          image="/images/habitad.jpg"
+          title="Reorientar nuestras buenas intenciones"
+          subtitle="Cuidar la fauna también implica respetar su espacio"
+          content={
+            <>
+              Recordá que los animales silvestres, en su entorno natural, conocen mejor que nadie
+              sus propias necesidades. Muchas veces, intervenir sin conocimiento puede causarles
+              más daño que beneficio.
+
+              <p className="mt-3">
+                Si podés evitarle a un animal el estrés de ser manipulado y transportado lejos
+                de su hábitat natural, deberías hacerlo. Observar a distancia y respetar su espacio
+                también es una forma de cuidado.
+              </p>
+
+              <p className="mt-3 font-semibold text-red-400">
+                En caso de encontrar un animal herido, no intentes asistirlo por tu cuenta.
+                Comunicate de inmediato con profesionales capacitados.
+              </p>
+
+              <div className="flex flex-col md:flex-row items-start md:items-center mt-4 gap-2 md:gap-6 font-medium">
+                <p>🚓 Policía: <span className="font-semibold">101</span></p>
+                <p>🚒 Bomberos: <span className="font-semibold">100</span></p>
+                <p>🦉 Granja los Pibes: <span className="font-semibold">249 421-8986</span></p>
+              </div>
+            </>
+          }
+          align="right"
+        />
 
 
       </section>
